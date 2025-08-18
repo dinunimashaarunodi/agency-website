@@ -15,6 +15,11 @@ const ThemeToggleBtn = ({theme,setTheme}) => {
         localStorage.setItem('theme',theme)
     },[theme])
 
+
+    useEffect(()=>{
+        
+    })
+
   return (
     <>
     <button>
